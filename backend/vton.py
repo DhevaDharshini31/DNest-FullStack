@@ -21,12 +21,7 @@ def run_tryon(person_path, cloth_path):
         seed=42,
         api_name="/tryon",
     )
-
-    
-
-    if isinstance(result, (list, tuple)):
-        for i, item in enumerate(result):
-            
+        
 
     os.makedirs("outputs", exist_ok=True)
 
