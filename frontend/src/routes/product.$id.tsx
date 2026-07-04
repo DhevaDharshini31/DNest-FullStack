@@ -251,7 +251,7 @@ export function FashionTryOn({ productImage }: { productImage: string }) {
         })
       );
 
-      const response = await fetch("http://127.0.0.1:8000/tryon", {
+      const response = await fetch("https://dnest-fullstack.onrender.com/tryon", {
         method: "POST",
         body: formData,
       });
